@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "production": "forever app.js"
   },
   "author": "kenny",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "forever": "^0.15.3"
   }
 }
