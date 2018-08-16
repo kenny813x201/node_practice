@@ -1,0 +1,15 @@
+<% include _header %>
+<h1>Sign up</h1>
+<form action="/signup" method="post">
+  <input name="username" type="text" class="form-control"
+     placeholder="Username" required autofocus>
+  <input name="password" type="password" class="form-control"
+     placeholder="Password" required>
+  <input type="submit" value="Sign up" class="btn btn-primary btn-block">
+</form>
+  <p><br>
+    This is just a testing website.<br>
+    Do not use the password that you use in other places!<br>
+    此為測試網站，請勿使用真實密碼～！
+  </p>
+<% include _footer %>
